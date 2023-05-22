@@ -8,7 +8,7 @@ const assertEqual = function (actual, expected) {
 
 const head = function (array) {
   let firstItem = array[0];
-  return firstItem;
+  return array && array.length ? firstItem : undefined;
 };
 
 // TEST CODE
