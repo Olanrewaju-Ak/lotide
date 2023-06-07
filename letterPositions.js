@@ -1,4 +1,3 @@
-
 const letterPositions = function (string) {
   const results = {};
   for (let i = 0; i < string.length; i++) {
@@ -10,7 +9,7 @@ const letterPositions = function (string) {
       }
     }
   }
-  console.log(results);
+
   return results;
 };
 
