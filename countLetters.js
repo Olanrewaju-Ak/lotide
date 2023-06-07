@@ -13,7 +13,4 @@ const countLetters = function (string) {
   return count;
 };
 
-countLetters("I am Home");
-countLetters("accommodation");
-
 module.exports = countLetters;
