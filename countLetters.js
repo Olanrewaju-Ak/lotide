@@ -9,7 +9,7 @@ const countLetters = function (string) {
       }
     }
   }
-  console.log(count);
+
   return count;
 };
 
