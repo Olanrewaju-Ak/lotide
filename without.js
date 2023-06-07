@@ -7,7 +7,7 @@ const without = function (source, itemsToRemove) {
       newArray.splice(index, 1); //removes 1 item at index(index)
     }
   }
-  console.log(newArray);
+
   return newArray;
 };
 
