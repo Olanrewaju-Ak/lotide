@@ -1,4 +1,3 @@
-
 // check the array length
 // if array.length = 0,1 or 2 return an empty array
 // if array.lenth is more than 2 and array.length % 2 = 0,
@@ -17,10 +16,8 @@ const middle = function (array) {
   } else {
     middleArr.push(array[middleItemIndex], array[middleItemIndex2]);
   }
-  console.log(middleArr);
+
   return middleArr;
 };
 
 module.exports = middle;
-
-
