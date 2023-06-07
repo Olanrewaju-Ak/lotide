@@ -13,7 +13,7 @@ const flatten = function (array) {
       flattenedArray.push(array[i]);
     }
   }
-  console.log(flattenedArray);
+
   return flattenedArray;
 };
 
