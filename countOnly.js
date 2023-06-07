@@ -3,7 +3,7 @@ const countOnly = (allItems, itemsToCount) => {
   for (const item of allItems) {
     itemsToCount[item] ? (results[item] ? (results[item] += 1) : (results[item] = 1)) : undefined;
   }
-  console.log(results);
+
   return results;
 };
 
